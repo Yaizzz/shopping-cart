@@ -3,7 +3,7 @@ import { FiShoppingCart } from "react-icons/fi";
 const CardIcon = ({ cart }) => {
   return (
     <>
-      {/*absolute eksenden çıkmasını sağladı top-2 en tepeye çıkardı relative ise kapsayıcısı olan dive hapsolmasını sağladı*/}
+      {/*absolute eksenden çıkmasını sağladı top-2 en tepeye çıkardı relative ise kapsayıcısı olan div e hapsolmasını sağladı*/}
       <div className="relative">
         <FiShoppingCart className="text-2xl" />
         {cart.length > 0 && (
