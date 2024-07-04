@@ -1,8 +1,9 @@
+import Header from "./components/Header";
 function App(){
 
   return(
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Shopping Cart</h1>
+    <div className="container mx-auto p-4">
+      <Header />
     </div>
   )
 }
