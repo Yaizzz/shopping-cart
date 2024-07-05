@@ -1,4 +1,10 @@
-const ProductItem = ({ product, setCart, cart }) => {
+import { useContext } from "react";
+import { CartContext } from "../context/CartContext";
+
+const ProductItem = ({product}) => {
+
+  const {setCart, cart } = useContext(CartContext)
+
   //&& true ise 
   const findProduct = cart.find((item) => item.id === product.id);
   //tıkladığın yere product ı gönder
