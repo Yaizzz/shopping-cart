@@ -1,5 +1,5 @@
 import { FiShoppingCart } from "react-icons/fi";
-import { MyContext } from "../main";
+import { MyContext } from "../context/MyContext";
 import { useContext } from "react";
 
 const CardIcon = ({ cart }) => {
